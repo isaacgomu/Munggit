@@ -16,18 +16,14 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+h1 {
+  font-size: 50px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.cl-cardBox {
+  background-color: tomato;
+}
+
+.username :hover {
+  text-decoration: underline;
 }
